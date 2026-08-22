@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Dashboard</title>
+
+    <link rel="stylesheet" href="./view_order_style.css">
+    <link rel="stylesheet" href="../emp_sidebar/emp_sidebar_style.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar-container"></div>
+
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <!-- TOP SECTION -->
+        <div class="top-section">
+
+            <h1>Employee Order Management</h1>
+
+            <div class="top-actions">
+
+                <input 
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search Orders..."
+                >
+
+                <button id="addOrderBtn">
+                    + Add Order
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- FILTERS -->
+        <div class="filters">
+
+            <select id="statusFilter">
+
+                <option value="">All Orders</option>
+
+                <option value="Pending">
+                    Pending
+                </option>
+
+                <option value="Delivered">
+                    Delivered
+                </option>
+
+                <option value="Cancelled">
+                    Cancelled
+                </option>
+
+            </select>
+
+
+
+            <select id="paymentFilter">
+
+                <option value="">All Payments</option>
+
+                <option value="Paid">
+                    Paid
+                </option>
+
+                <option value="Unpaid">
+                    Unpaid
+                </option>
+
+            </select>
+
+
+
+            <select id="sortSelect">
+
+                <option value="">Sort By</option>
+
+                <option value="latest">
+                    Latest Orders
+                </option>
+
+                <option value="oldest">
+                    Oldest Orders
+                </option>
+
+                <option value="highestBill">
+                    Highest Bill Amount
+                </option>
+
+                <option value="status">
+                    Order Status
+                </option>
+
+            </select>
+
+
+
+            <select id="limitSelect">
+
+                <option value="5">
+                    5 Per Page
+                </option>
+
+                <option value="10">
+                    10 Per Page
+                </option>
+
+            </select>
+
+        </div>
+
+
+
+
+
+        <!-- TABLE -->
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Order ID</th>
+
+                        <th>Customer</th>
+
+                        <th>Mobile</th>
+
+                        <th>Product</th>
+
+                        <th>Qty</th>
+
+                        <th>Total</th>
+
+                        <th>Payment</th>
+
+                        <th>Status</th>
+
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="orderBody"></tbody>
+
+            </table>
+
+        </div>
+
+
+
+
+
+        <!-- PAGINATION -->
+        <div class="pagination">
+
+            <button id="prevBtn">
+                Prev
+            </button>
+
+            <div id="pageNumbers"></div>
+
+            <button id="nextBtn">
+                Next
+            </button>
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+<script src="./view_order_script.js"></script>
+</html>

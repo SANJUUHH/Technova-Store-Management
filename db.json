@@ -1,0 +1,206 @@
+{
+  "products": [
+    {
+      "prodname": "Noise Vortex Plus",
+      "brand": "Noise",
+      "category": "Smart Watch",
+      "price": "2199",
+      "qty": "200",
+      "imgUrl": "https://m.media-amazon.com/images/I/61QiBo-sPTL._SX522_.jpg",
+      "description": "Noise Vortex Plus 1.46 AMOLED Display, AoD, BT Calling, Sleek Metal Finish, 7 Days Battery Life, All New OS with 100+ Watch Faces & Health Suite (Jet Black)",
+      "status": "Low Stock",
+      "id": "W0KRqhDYnqs"
+    },
+    {
+      "prodname": "NoiseFit Halo ",
+      "brand": "Noise",
+      "category": "Smart Watch",
+      "price": "2499",
+      "qty": "50",
+      "imgUrl": "https://m.media-amazon.com/images/I/41tCBnNxFML._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "NoiseFit Halo 1.43\" AMOLED Display, Bluetooth Calling Round Dial Smart Watch, Premium Metallic Build, Always on Display, Smart Gesture Control, 100 Sports Modes (Jet Black)\n",
+      "status": "In Stock",
+      "id": "tahbVDSJhZQ"
+    },
+    {
+      "prodname": "Boat Chrome",
+      "brand": "Boat",
+      "category": "Smart Watch",
+      "price": "2499",
+      "qty": "0",
+      "imgUrl": "https://m.media-amazon.com/images/I/71JaNi+RfrL._SX522_.jpg",
+      "description": "Boat Chrome Horizon, Premium Metal Body, Video Watch Faces, 1.51”(3.83cm) AMOLED Round Display, HRV & VO2 Max, Auto-Activity Detection, ASAP Charge, HRV Smartwatch for Men & Women (Midnight Black)",
+      "status": "Out of Stock",
+      "id": "enXxRjgUJrY"
+    },
+    {
+      "prodname": "Noise Twist Go Round dial Smartwatch",
+      "brand": "Noise",
+      "category": "Smart Watch",
+      "price": "1799",
+      "qty": "58",
+      "imgUrl": "https://m.media-amazon.com/images/I/41yCQTkMJ-L._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Noise Twist Go Round dial Smartwatch with BT Calling, 1.39\" Display, Metal Build, 100+ Watch Faces, IP68, Sleep Tracking, 100+ Sports Modes, 24/7 Heart Rate Monitoring (Elite Black)",
+      "status": "Low Stock",
+      "id": "BuR3ntv7s-M"
+    },
+    {
+      "prodname": "HP OmniBook 5 ",
+      "brand": "HP",
+      "category": "Laptop",
+      "price": "69990",
+      "qty": "200",
+      "imgUrl": "https://m.media-amazon.com/images/I/71fHNU8KnQL._SX679_.jpg",
+      "description": "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x, 1TB SSD) 2K, 14''/35.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.35kg, he0015QU, Light-Weight, Next-Gen AI Laptop",
+      "status": "In Stock",
+      "id": "ERxBlXJ8Lgg"
+    },
+    {
+      "prodname": "Samsung Galaxy M17 5G Mobile",
+      "brand": "Samsung",
+      "category": "Mobile",
+      "price": "17498",
+      "qty": "50",
+      "imgUrl": "https://m.media-amazon.com/images/I/416SzYoULeL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Samsung Galaxy M17 5G Mobile (Moonlight Silver, 8GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus| IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-free Gaming | Without Charger",
+      "status": "Low Stock",
+      "id": "hmzg3GXLhNk"
+    },
+    {
+      "prodname": "REDMI A7 Pro 5G",
+      "brand": "REDMI ",
+      "category": "Mobile",
+      "price": "11999",
+      "qty": "50",
+      "imgUrl": "https://m.media-amazon.com/images/I/71AjkPyeFiL._SX679_.jpg",
+      "description": "REDMI A7 Pro 5G (Black, 4GB RAM, 64GB Storage) | Segment's Fastest Processor | Segment's Largest Battery | Segment's Largest & Smoothest 6.9in 120Hz Display",
+      "status": "Low Stock",
+      "id": "ToQShdE4KY0"
+    },
+    {
+      "prodname": "Noise Vortex Plus",
+      "brand": "Noise",
+      "category": "Smart Watch",
+      "price": "2199",
+      "qty": "200",
+      "imgUrl": "https://m.media-amazon.com/images/I/61QiBo-sPTL._SX522_.jpg",
+      "description": "Noise Vortex Plus 1.46 AMOLED Display, AoD, BT Calling, Sleek Metal Finish, 7 Days Battery Life, All New OS with 100+ Watch Faces & Health Suite (Jet Black)",
+      "status": "Low Stock",
+      "id": "W0KRqhDYnqs"
+    },
+    {
+      "prodname": "NoiseFit Halo ",
+      "brand": "Noise",
+      "category": "Smart Watch",
+      "price": "2499",
+      "qty": "50",
+      "imgUrl": "https://m.media-amazon.com/images/I/41tCBnNxFML._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "NoiseFit Halo 1.43\" AMOLED Display, Bluetooth Calling Round Dial Smart Watch, Premium Metallic Build, Always on Display, Smart Gesture Control, 100 Sports Modes (Jet Black)\n",
+      "status": "In Stock",
+      "id": "tahbVDSJhZQ"
+    },
+    {
+      "prodname": "Boat Chrome",
+      "brand": "Boat",
+      "category": "Smart Watch",
+      "price": "2499",
+      "qty": "0",
+      "imgUrl": "https://m.media-amazon.com/images/I/71JaNi+RfrL._SX522_.jpg",
+      "description": "Boat Chrome Horizon, Premium Metal Body, Video Watch Faces, 1.51”(3.83cm) AMOLED Round Display, HRV & VO2 Max, Auto-Activity Detection, ASAP Charge, HRV Smartwatch for Men & Women (Midnight Black)",
+      "status": "Out of Stock",
+      "id": "enXxRjgUJrY"
+    },
+    {
+      "prodname": "Noise Twist Go Round dial Smartwatch",
+      "brand": "Noise",
+      "category": "Smart Watch",
+      "price": "1799",
+      "qty": "58",
+      "imgUrl": "https://m.media-amazon.com/images/I/41yCQTkMJ-L._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Noise Twist Go Round dial Smartwatch with BT Calling, 1.39\" Display, Metal Build, 100+ Watch Faces, IP68, Sleep Tracking, 100+ Sports Modes, 24/7 Heart Rate Monitoring (Elite Black)",
+      "status": "Low Stock",
+      "id": "BuR3ntv7s-M"
+    },
+    {
+      "prodname": "HP OmniBook 5 ",
+      "brand": "HP",
+      "category": "Laptop",
+      "price": "69990",
+      "qty": "200",
+      "imgUrl": "https://m.media-amazon.com/images/I/71fHNU8KnQL._SX679_.jpg",
+      "description": "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x, 1TB SSD) 2K, 14''/35.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.35kg, he0015QU, Light-Weight, Next-Gen AI Laptop",
+      "status": "In Stock",
+      "id": "ERxBlXJ8Lgg"
+    },
+    {
+      "prodname": "Samsung Galaxy M17 5G Mobile",
+      "brand": "Samsung",
+      "category": "Mobile",
+      "price": "17498",
+      "qty": "50",
+      "imgUrl": "https://m.media-amazon.com/images/I/416SzYoULeL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Samsung Galaxy M17 5G Mobile (Moonlight Silver, 8GB RAM, 128GB Storage) | 50MP OIS Triple Camera | Gorilla Glass Victus| IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-free Gaming | Without Charger",
+      "status": "Low Stock",
+      "id": "hmzg3GXLhNk"
+    },
+    {
+      "prodname": "REDMI A7 Pro 5G",
+      "brand": "REDMI ",
+      "category": "Mobile",
+      "price": "11999",
+      "qty": "50",
+      "imgUrl": "https://m.media-amazon.com/images/I/71AjkPyeFiL._SX679_.jpg",
+      "description": "REDMI A7 Pro 5G (Black, 4GB RAM, 64GB Storage) | Segment's Fastest Processor | Segment's Largest Battery | Segment's Largest & Smoothest 6.9in 120Hz Display",
+      "status": "Low Stock",
+      "id": "ToQShdE4KY0"
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "Rahul ",
+      "mobileNumber": 9999995656,
+      "productPurchased": "Noise Vortex Plus",
+      "quantityOrdered": 1,
+      "totalAmount": 2199,
+      "deliveryAddress": "Nagpur",
+      "paymentStatus": "Paid",
+      "orderStatus": "Pending",
+      "id": "_2_Nvkh7Xb8"
+    },
+    {
+      "customerName": "Sanjeevani ",
+      "mobileNumber": 4654646454,
+      "productPurchased": "Noise Vortex Plus",
+      "quantityOrdered": 1,
+      "totalAmount": 2199,
+      "deliveryAddress": "Chd",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "id": "DBDGgv_tNFA"
+    },
+    {
+      "customerName": "Sneha ",
+      "mobileNumber": 9999995656,
+      "productPurchased": "Noise Vortex Plus",
+      "quantityOrdered": 1,
+      "totalAmount": 2199,
+      "deliveryAddress": "Nagpur",
+      "paymentStatus": "Paid",
+      "orderStatus": "Pending",
+      "id": "_2_Nvkh7Xb8"
+    },
+    {
+      "customerName": "Ansh",
+      "mobileNumber": 4654646454,
+      "productPurchased": "Noise Vortex Plus",
+      "quantityOrdered": 1,
+      "totalAmount": 2199,
+      "deliveryAddress": "Chd",
+      "paymentStatus": "Paid",
+      "orderStatus": "Delivered",
+      "id": "DBDGgv_tNFA"
+    }
+  ],
+  "categories": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Product</title>
+    <link rel="stylesheet" href="./add_prod_style.css">
+    <link rel="stylesheet" href="../sidebar/sidebar_style.css">
+    
+</head>
+
+<body>
+
+    <div id="sidebar-container"></div>
+
+  <div class="container">
+
+    <h1 class="title">Add Product</h1>
+
+    <form id="Add-Product-Form">
+
+      <div class="form-group">
+        <label>Product Name</label>
+        <input type="text" name="prodname" placeholder="Enter product name" required>
+      </div>
+
+      <div class="row">
+
+        <div class="form-group">
+          <label>Brand</label>
+          <input type="text" name="brand" placeholder="Enter brand" required>
+        </div>
+
+        <div class="form-group">
+          <label>Category</label>
+          <select name="category" required>
+            <option>Select Category</option>
+            <option>Mobile</option>
+            <option>Laptop</option>
+            <option>Accessories</option>
+            <option>Smart Watch</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="form-group">
+          <label>Price (₹)</label>
+          <input type="number" name="price" placeholder="Enter price" required>
+        </div>
+
+        <div class="form-group">
+          <label>Quantity</label>
+          <input type="number" name="qty" placeholder="Enter quantity" required>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label>Product Image URL</label>
+        <input type="url" name="imgUrl" placeholder="Paste image URL" required>
+      </div>
+
+      <div class="form-group">
+        <label>Description</label>
+        <textarea name="description" placeholder="Write product description"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Availability Status</label>
+
+        <select name="status" required>
+          <option>In Stock</option>
+          <option>Low Stock</option>
+          <option>Out of Stock</option>
+        </select>
+      </div>
+
+      <div class="btns">
+        <button type="submit" class="add-btn">Add Product</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+<script src="./add_prod_script.js"></script>
+</html>

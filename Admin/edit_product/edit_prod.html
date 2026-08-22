@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edit Product</title>
+
+    <link rel="stylesheet" href="./edit_prod_style.css">
+    <link rel="stylesheet" href="../sidebar/sidebar_style.css">
+
+</head>
+
+<body>
+
+    <div id="sidebar-container"></div>
+
+    <div class="main-content">
+
+        <div class="container">
+
+            <h1>Edit Product</h1>
+
+            <form id="editForm">
+
+                <input type="text" id="prodname" placeholder="Product Name">
+
+                <input type="text" id="brand" placeholder="Brand">
+
+                <input type="text" id="category" placeholder="Category">
+
+                <input type="number" id="price" placeholder="Price">
+
+                <input type="number" id="qty" placeholder="Quantity">
+
+                <input type="text" id="imgUrl" placeholder="Image URL">
+
+                <textarea id="description" placeholder="Description"></textarea>
+
+                <select id="status">
+
+                    <option value="In Stock">In Stock</option>
+
+                    <option value="Low Stock">Low Stock</option>
+
+                    <option value="Out of Stock">Out of Stock</option>
+
+                </select>
+
+                <button type="submit">
+                    Update Product
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+<script src="./edit_prod_script.js"></script>
+</html>

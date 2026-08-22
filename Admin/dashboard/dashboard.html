@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="./dashboard_style.css">
+    <link rel="stylesheet" href="../sidebar/sidebar_style.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar-container"></div>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <!-- TOP CARDS -->
+        <h1 class="dashboard-title">Admin Dashboard</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2 id="totalProducts">0</h2>
+                <p>Total Products</p>
+            </div>
+
+            <div class="card">
+                <h2 id="totalOrders">0</h2>
+                <p>Total Orders</p>
+            </div>
+
+            <div class="card">
+                <h2 id="totalRevenue">₹0</h2>
+                <p>Total Revenue</p>
+            </div>
+
+            <div class="card">
+                <h2 id="instockCount">0</h2>
+                <p>In Stock</p>
+            </div>
+
+            <div class="card">
+                <h2 id="outstockCount">0</h2>
+                <p>Out of Stock</p>
+            </div>
+
+            <div class="card">
+                <h2 id="lowstockCount">0</h2>
+                <p>Low Stock</p>
+            </div>
+
+            <div class="card">
+                <h2 id="pendingOrders">0</h2>
+                <p>Pending Deliveries</p>
+            </div>
+
+            <div class="card">
+                <h2 id="cancelledOrders">0</h2>
+                <p>Cancelled Orders</p>
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT SECTION -->
+        <div class="product-header">
+
+            <h1>Products</h1>
+
+            <div class="header-actions">
+
+                <input 
+                    type="text" 
+                    id="searchInput"
+                    placeholder="Search by Name, Brand, Category"
+                >
+
+                <button id="addProductBtn">
+                    + Add Product
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- FILTERS -->
+        <div class="filters">
+
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Laptop">Laptop</option>
+                <option value="Accessories">Accessories</option>
+                <option value="Smart Watch">Smart Watch</option>
+            </select>
+
+
+            <select id="priceFilter">
+                <option value="">All Prices</option>
+                <option value="0-5000">₹0 - ₹5,000</option>
+                <option value="5000-20000">₹5,000 - ₹20,000</option>
+                <option value="20000+">₹20,000+</option>
+            </select>
+
+
+            <select id="statusFilter">
+                <option value="">All Status</option>
+                <option value="In Stock">In Stock</option>
+                <option value="Low Stock">Low Stock</option>
+                <option value="Out of Stock">Out of Stock</option>
+            </select>
+
+
+            <select id="brandFilter">
+                <option value="">All Brands</option>
+                <option value="Apple">Apple</option>
+                <option value="Samsung">Samsung</option>
+                <option value="HP">HP</option>
+                <option value="Lenovo">Lenovo</option>
+            </select>
+
+
+            <select id="sortSelect">
+
+                <option value="">Sort By</option>
+
+                <option value="priceLow">
+                    Price Low to High
+                </option>
+
+                <option value="priceHigh">
+                    Price High to Low
+                </option>
+
+                <option value="nameAZ">
+                    Product Name A-Z
+                </option>
+
+                <option value="nameZA">
+                    Product Name Z-A
+                </option>
+
+                <option value="stockHigh">
+                    Highest Stock First
+                </option>
+
+            </select>
+
+
+            <select id="limitSelect">
+                <option value="5">5 Per Page</option>
+                <option value="10">10 Per Page</option>
+            </select>
+
+        </div>
+
+
+
+        <!-- TABLE -->
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Brand</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="productBody"></tbody>
+
+            </table>
+
+        </div>
+
+
+
+        <!-- PAGINATION -->
+        <div class="pagination">
+
+            <button id="prevBtn">
+                Prev
+            </button>
+
+            <div id="pageNumbers"></div>
+
+            <button id="nextBtn">
+                Next
+            </button>
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+<script src="./dashboard_script.js"></script>
+</html>

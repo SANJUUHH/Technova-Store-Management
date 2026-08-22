@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Order</title>
+
+    <link rel="stylesheet" href="./add_order_style.css">
+    <link rel="stylesheet" href="../emp_sidebar/emp_sidebar_style.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar-container"></div>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <div class="form-container">
+
+            <h1>Add Customer Order</h1>
+
+            <form id="orderForm">
+
+                <input 
+                    type="text"
+                    id="customerName"
+                    placeholder="Customer Name"
+                    required
+                >
+
+                <input 
+                    type="text"
+                    id="mobileNumber"
+                    placeholder="Mobile Number"
+                    required
+                >
+
+                <input 
+                    type="text"
+                    id="productPurchased"
+                    placeholder="Product Purchased"
+                    required
+                >
+
+                <input 
+                    type="number"
+                    id="quantityOrdered"
+                    placeholder="Quantity Ordered"
+                    required
+                >
+
+                <input 
+                    type="number"
+                    id="totalAmount"
+                    placeholder="Total Amount"
+                    required
+                >
+
+                <textarea 
+                    id="deliveryAddress"
+                    placeholder="Delivery Address"
+                    required
+                ></textarea>
+
+
+                <select id="paymentStatus">
+
+                    <option value="Paid">Paid</option>
+
+                    <option value="Unpaid">Unpaid</option>
+
+                </select>
+
+
+                <select id="orderStatus">
+
+                    <option value="Pending">Pending</option>
+
+                    <option value="Delivered">Delivered</option>
+
+                    <option value="Cancelled">Cancelled</option>
+
+                </select>
+
+
+                <button type="submit">
+                    Add Order
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+   
+
+</body>
+<script src="./add_order_script.js"></script>
+</html>

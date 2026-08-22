@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    padding:30px;
+}
+
+.container{
+    width:85%;
+    max-width:1300px;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-left: 230px;
+}
+
+.title{
+    margin-bottom:20px;
+    color:#222;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#2563eb;
+    color:white;
+}
+
+th,
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+td img{
+    width:70px;
+    height:70px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.status{
+    padding:6px 12px;
+    border-radius:20px;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.instock{
+    background:green;
+}
+
+.lowstock{
+    background:orange;
+}
+
+.outstock{
+    background:red;
+}
+
+button{
+    padding:8px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.edit-btn{
+    background:#2563eb;
+    color:white;
+    margin-right:8px;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+}
+
+tr:hover{
+    background:#f1f5f9;
+}
