@@ -11,13 +11,16 @@ The application provides separate interfaces for **Administrators** and **Employ
 ![Dashboard](dashboardImg2.png)
 
 ### Admin Add Product Details
-![Dashboard](dashboardAddProdImg.png)
+![Admin](dashboardAddProdImg.png)
 
 ### Admin View Product Details
-![Dashboard](dashboardViewProdImg.png)
+![Admin](dashboardViewProdImg.png)
 
+### Employee View Order Details
+![Employee](EmpViewOrdersImg.png)
 
-![Dashboard](./screenshots/dashboard.png)
+### Employee Add Order Details
+![Employee](EmpAddOrderImg.png)
 
 ## ✨ Features
 
