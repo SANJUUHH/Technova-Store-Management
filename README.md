@@ -5,11 +5,16 @@ TechNova Store Management is a web-based store management application built usin
 The application provides separate interfaces for **Administrators** and **Employees** to manage products, inventory, and customer orders.
 
 ## Screenshots 
-![Dashboard](dashboardImg1.png)
 
+### Admin Dashboard
+![Dashboard](dashboardImg1.png)
 ![Dashboard](dashboardImg2.png)
 
+### Admin Add Product Details
+![Dashboard](dashboardAddProdImg.png)
 
+### Admin View Product Details
+![Dashboard](dashboardViewProdImg.png)
 
 
 ![Dashboard](./screenshots/dashboard.png)
